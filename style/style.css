@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+#banner{
+    background-color: rgb(87, 164, 241);
+    background-image: url(../img/pattern.png);
+    background-size:45%;
+    background-repeat: repeat;
+    background-position: 55% 0%;
+    padding: 45px 0px 10px 5px;
+}
