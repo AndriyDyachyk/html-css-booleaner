@@ -7,8 +7,32 @@
 #banner{
     background-color: rgb(87, 164, 241);
     background-image: url(../img/pattern.png);
-    background-size:45%;
+    background-size:400px;
     background-repeat: repeat;
-    background-position: 55% 0%;
-    padding: 45px 0px 10px 5px;
+    background-position: 70px 0px;
+    padding: 40px 0px 5px 5px;
 }
+
+/* CLASSI SEZIONE "ESSENZIALI" */
+
+.intestazione{
+    font-family: 'Kanit', sans-serif;
+    color: gray;   
+}
+
+.titolo{
+color: black;
+font-size: 240%;
+font-weight: 900;
+}
+
+a{
+    text-decoration:none;
+    color: rgb(31, 166, 203);
+}
+
+.commento{
+    font-size: 70%;
+}
+
+/*  FINE CLASSI SEZIONE "ESSENZIALI" */
