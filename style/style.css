@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: ;
  }
 
 #banner{
@@ -19,16 +18,15 @@ main{
 }
 
 /* CLASSI stili di testo */
-
 .intestazione, .consigliati{
     font-family: 'Kanit', sans-serif;
     color: gray; 
 }
 
 .titolo{
-color: black;
-font-size: 2.4em;
-font-weight: 900;
+    color: black;
+    font-size: 2.4em;
+    font-weight: 900;
 }
 
 a{
@@ -46,19 +44,13 @@ figcaption, .commento{
     font-size: 0.7em;
 }
 
-.photo{
-    min-width: max-content;
-    text-align: left;
-}
 
 span{
     background-color: #FFFF00;
 }
+/*FINE STILI TESTUALI */
 
-.photo, .articolo, ul, table{
-    margin: 20px 0;
-}
-
+/* INIZIO STILI TABELLA */
 table{
     border-collapse: collapse;
     text-align: left;
@@ -87,4 +79,23 @@ ul{
 
 td, th{
     padding: 0px 10px;
+}
+/* FINE STILI TABELLA */
+
+/* LAYOUT */
+.photo, div.suggerito{
+    position: relative;
+    text-align: left;
+    display: inline-block;
+}
+div.suggerito>p {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+    font-size: 2em;
+}
+
+.photo, .articolo, ul, table{
+    margin: 20px 0;
 }
